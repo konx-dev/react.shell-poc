@@ -12,5 +12,13 @@ A high-performance React orchestrator designed for a plug-and-play Micro-Fronten
 
 tbc
 
+## Docker
+
+Build image:
+`docker build -t shell-poc .`
+
+Run image:
+`docker run --name shell-poc -p 3000:3000 shell-poc`
+
 
 

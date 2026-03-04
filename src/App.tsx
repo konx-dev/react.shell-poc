@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import DynamicRemote from './components/DynamicRemote';
 
 // MOCK: This data would normally come from the .NET Web API
