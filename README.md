@@ -15,6 +15,7 @@ A high-performance React orchestrator designed for a plug-and-play Micro-Fronten
 - [ ] npm -> pnpm
 - [ ] Error Boundary
 - [ ] Better server error logging
+- [ ] server.js -> .ts
 
 ## Docker
 
