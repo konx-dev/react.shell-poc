@@ -1,0 +1,28 @@
+{
+  "name": "konxdev-lab.shell",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "nuke": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "1.4.1",
+    "@types/node": "24.10.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
