@@ -10,8 +10,10 @@
     "nuke": "rm -rf node_modules package-lock.json && npm install"
   },
   "dependencies": {
+    "@tailwindcss/vite": "4.2.1",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwindcss": "4.2.1"
   },
   "devDependencies": {
     "@originjs/vite-plugin-federation": "1.4.1",

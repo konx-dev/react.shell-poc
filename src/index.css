@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Global Tokens, these are available as variables to ALL modules */
+:root {
+    --shell-primary: #3b82f6;
+}
+
+@theme {
+
+  /* Global Brand Colors */
+  --color-primary: var(--shell-primary); /* Blue */
+}

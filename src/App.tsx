@@ -16,9 +16,9 @@ function App() {
   const [modules] = useState(MOCK_REGISTRY);
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div className="p-10 border m-5">
       <header>
-        <h1>Shell (Host)</h1>
+        <h1 className="bg-primary text-white">Shell (Host)</h1>
         <p>Managing modules via .NET Registry Mock</p>
       </header>
 
